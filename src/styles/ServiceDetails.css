@@ -1,0 +1,49 @@
+@import '../vars.css';
+
+.service-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    font-family: var(--font-primary), sans-serif;
+}
+
+.service-details-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.service-details-card h2 {
+    font-size: 2.5rem;
+    color: var(--color-medium);
+    margin-bottom: 10px;
+}
+
+.service-details-image {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.service-price {
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+.service-des {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
